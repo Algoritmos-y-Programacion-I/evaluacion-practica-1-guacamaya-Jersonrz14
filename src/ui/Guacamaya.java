@@ -9,6 +9,18 @@ public class Guacamaya {
     // Arreglos de precios y unidades para todo el programa
     public static double[] precios;
     public static int[] unidades;
+    int referencia;
+    int cantidadvendida;
+
+
+    
+
+
+
+
+    
+    
+    
 
     public static void main(String[] args) {
 
@@ -100,17 +112,53 @@ public class Guacamaya {
         precios = new double[referencias];
         unidades = new int[referencias];
 
+        int [][] reader = new int [referencia];
+        for (int i = 0; i < referencias, i++ ){
+        }
+        return inicializarGlobales;
+
     }
 
-    public static void solicitarDatos(){
+       /**
+     * Descripcion: Este metodo se encarga de preguntar al usuario la cantidad de unidades y el precio de estas 
+     * pre: El Scanner reader debe estar inicializado
+     * pre: Los arreglos precios y unidades deben estar declarados
+     * pos: Los arreglos precios y unidades quedan inicializados
+     */  
 
+    public static void solicitarDatos(){ 
+
+        inicializarGlobales();
         
+
+        double[][] reader = new double [precios];
+        int [][] reader = new int [unidades];
+        for (double m = 0; m < precios; m++){
+            System.out.println("\n ingrese el precio del producto" + (m + 1));
+            reader[m] = reader.nextInt();
+                for (int j = 0; i < unidades; j++){
+                    reader[j] = reader.nextInt();
+                }
+
+        }
+
+        return inicializarGlobales;
      
     }
 
-    public static int calcularTotalUnidadesVendidas(){
 
-        return 0;
+   /**
+     * Descripcion: Este metodo se encarga de señalar al usuario la cantidad total de unidades vendidas 
+     * pre: Los arreglos precios y unidades deben estar declarados
+     * pos: Los arreglos precios y unidades quedan inicializados
+     */  
+
+
+    public static int calcularTotalUnidadesVendidas(int [] numeros){
+
+        int cantidadvendida = total.length;
+        double precios = total[0].length;
+        
 
 
     }
